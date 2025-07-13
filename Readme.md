@@ -2,21 +2,19 @@
 
 A Spring Boot application that enables you to run the DeepSeek AI model locally using Spring AI. This project provides a React-based frontend for interacting with the DeepSeek model and exposes RESTful APIs for direct usage. The model runs entirely on your local machine, offering privacy and control, with performance heavily dependent on your system's configuration.
 
+## Working Video
+
+[Watch the Demo Video](https://github.com/user-attachments/assets/fced7a1b-dcac-4534-a66c-90380559f51e)
+
+
+This video demonstrates the setup process, frontend usage, and sample interactions with the DeepSeek model.
+
 ## Project Overview
 
 - **Model**: Utilizes the DeepSeek 1.5 billion parameter model, an entry-level and basic model suitable for lightweight tasks. Users with more powerful systems can experiment with higher-parameter models (e.g., 7B or 13B) depending on hardware capabilities.
 - **Local Execution**: The model runs locally, ensuring data privacy and eliminating dependency on external APIs. Performance (e.g., response time, handling complex queries) depends on your CPU, GPU, RAM, and storage configuration.
 - **Frontend**: A modern React-based UI for a seamless chat experience.
 - **Backend**: Spring Boot with Spring AI integration for managing the DeepSeek model.
-
-Check out the [working video](#working-video) to see the application in action!
-
-## Working Video
-
-[Watch the Demo Video](https://github.com/user-attachments/assets/fced7a1b-dcac-4534-a66c-90380559f51e)  
-
-
-This video demonstrates the setup process, frontend usage, and sample interactions with the DeepSeek model.
 
 ## Prerequisites
 
